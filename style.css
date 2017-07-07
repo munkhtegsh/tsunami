@@ -81,6 +81,8 @@ li {
   display: block;
   width: 30%;
   margin: 1.5%;
+    float: left;
+
 }
 
 .clearfix {
@@ -94,6 +96,7 @@ li {
 
 .location img {
 	width: 100%;
+    
 }
 
 footer {
@@ -128,7 +131,7 @@ footer .container {
     
     .gallery img{
         width: 90%;
-        margin: 0;
+        margin: 10px 20px ;
     }
 }
 
