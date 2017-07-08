@@ -112,19 +112,19 @@ footer .container {
   color: white;
 }
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 960px) and (min-width: 200px){
     .main{
         padding-top: 0px;
     }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px)and (min-width: 200px){
     .supporting img{
         display: none;
     }
 }
 
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 470px)and (min-width: 200px){
     h1{
         font-size: 2rem;
     }
@@ -133,7 +133,14 @@ footer .container {
         width: 90%;
         margin: 10px 20px ;
     }
+    
+    footer nav{
+        display: none;
+    }
+    
+    
 }
+
 
 
 
